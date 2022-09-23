@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="sowhyy">
+  <meta name="description" content="explanation">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" as="style" crossorigin
+    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.4/dist/web/static/pretendard-dynamic-subset.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://kit.fontawesome.com/5ee8d2169b.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css" />
+  <!-- <title>Welcome to Kokoa Clone</title> -->
+  <title>Challenges Kokoa-clone-2022</title>
+</head>
+<body>
+  <!-- FIXME: 상단바_status-bar-->
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>NOMAD</span>
+      <span>16:00</span>
+    </div>
+    <div class="status-bar__column">
+      <i class="fa-solid fa-wifi"></i>
+      <span>70%</span>
+      <i class="fa-solid fa-battery-three-quarters"></i>
+    </div>
+  </div>
+<!--상단바_status-bar-->
+
+
+  <!-- FIXME: 상단 검색_status-header-->
+  <header class="screen-header">
+    <h1 class="screen-header__title">More</h1>
+    <div class="screen-header__icons">
+      <span><i class="fa-xl fa-solid fa-magnifying-glass"></i></span>
+      <span><i class="fa-xl fa-solid fa-music"></i></span>
+      <span id="gear"><a href="7settings.html">
+      <i class="fa-xl fa-solid fa-gear"></i> </a> </span>
+    </div>
+  </header>
+
+  <!-- TODO: 더보기_more-->
+  <main class="main-screen more-screen">
+    <div class="user-component">
+      <div class="user-component__column">
+        <img src="img/img1.jpg" class="user-component__img4 " />
+        <div class="user-component__text">
+          <h4 class="user-component__title">sowhyy</h4>
+          <h6 class="user-component__subtitle">soyeong 1990</h6>
+        </div>
+      </div>
+      <div class="user-component__column" id="message">
+        <i class="fa-2x fa-solid fa-message"></i>
+      </div>
+    </div>
+
+    <div class="icon-row">
+      <div class="icon-row__icon">
+        <i class="fa-regular fa-calendar"></i>
+        <span>Calendar</span>
+      </div>
+      <div class="icon-row__icon">
+        <i class="fa-regular fa-face-smile"></i>
+        <span>Emoticons</span>
+      </div>
+      <div class="icon-row__icon">
+        <i class="fa-solid fa-paint-roller"></i>
+        <span>Themes</span>
+      </div>
+      <div class="icon-row__icon">
+        <i class="fa-solid fa-circle-dollar-to-slot"></i>
+        <span>Account</span>
+      </div>
+    </div>
+
+    <div class="more-suggestions">
+      <h4 class="more-suggestions__title">Suggestions</h4>
+      <div class="more-suggestions__icons">
+        <div class="more-suggestions__icon">
+          <div class="more-suggestions__icon-image">
+          <i class="fa-solid fa-quote-left"></i> </div>
+          <span class="more-suggestions__icon-text">Kokoa clone</span>
+        </div>
+        <div class="more-suggestions__icon">
+          <div class="more-suggestions__icon-image">
+          <i class="fa-solid fa-quote-right"></i> </div>
+          <span class="more-suggestions__icon-text">Kokoa clone</span>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- FIXME: 하단바 네비_nav-bar -->
+  <nav class="nav">
+    <ul class="nav__list">
+      <li class="nav__btn">
+        <a class="nav__link" href="2friend.html">
+          <i class="fa-2x fa-solid fa-user"></i></a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="3chats.html">
+          <span class="nav__notification badge">1</span>
+          <i class="fa-2x fa-solid fa-comment"></i></a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="5find.html">
+          <i class="fa-2x fa-solid fa-magnifying-glass"></i></a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="6more.html">
+          <i class="fa-2x fa-solid fa-ellipsis"></i></a>
+      </li>
+    </ul>
+  </nav>
+
+  <div id="no-mobile">
+    <span>Your screen is too big 😫🥱😡🤬 </span>
+  </div>
+
+</body>
+</html>

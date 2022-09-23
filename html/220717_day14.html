@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="sowhyy">
+  <meta name="description" content="explanation">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" as="style" crossorigin
+    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.4/dist/web/static/pretendard-dynamic-subset.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://kit.fontawesome.com/5ee8d2169b.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="finish/css/styles.css" />
+  <!-- <title>Welcome to Kokoa Clone</title> -->
+  <title>Challenges Kokoa-clone-2022</title>
+</head>
+<body>
+  <!-- FIXME: 상단바_status-bar-->
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>NOMAD</span>
+      <span>16:00</span>
+    </div>
+    <div class="status-bar__column">
+    </div>
+    <div class="status-bar__column">
+      <i class="fa-solid fa-wifi"></i>
+      <span>70%</span>
+      <i class="fa-solid fa-battery-three-quarters"></i>
+    </div>
+  </div>
+<!--상단바_status-bar-->
+
+  <!-- TODO: 로그인_login-->
+  <header class="welcome-header">
+    <h1 class="welcome-header__title">Welcome to Kokoa Clone 2022</h1>
+    <p class="welcome-header__text">
+      If you have a Kokoa Account, log in with your email or phone number.
+    </p>
+  </header>
+
+  <!-- TODO: 친구목록_friends-->
+  <form action="finish/2friend.html" method="get" id="login-form">
+    <input name="username" type="text" placeholder="Email or phone number" />
+    <input name="password" type="password" placeholder="Password" />
+    <input type="submit" value="Log In" />
+    <a href="#">Find Kokoa Account or Password</a>
+  </form>
+
+  <div id="no-mobile">
+    <span>Kokoa clone 2022 &nbsp; Your screen is too big 😝😝</span>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.4/dist/web/static/pretendard-dynamic-subset.css");
+
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "components/no-mobile.css";
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+
+
+/* Screens */
+@import "screens/1login.css";
+@import "screens/2friend.css";
+@import "screens/3chats.css";
+@import "screens/4chat.css";
+@import "screens/5find.css";
+@import "screens/6more.css";
+@import "screens/7settings.css";
+
+body { font-family: Pretendard, sans-serif; color: black;}
+
+a { text-decoration: none; color: inherit;}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}

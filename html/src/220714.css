@@ -1,0 +1,181 @@
+@charset "utf-8"; 
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.4/dist/web/variable/pretendardvariable.css");
+* { padding: 0;  margin: 0;  }
+li { list-style: none; }
+a { text-decoration: none; color: inherit;}
+img { display: block;}
+body {  font-family: Pretendard, sans-serif;}
+
+#wrap {
+  width: 500px;  height: 700px;
+  border: 2px solid #000;
+  background-color: #D7BFD7;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#library {
+  width: 300px;  height: 650px;
+  background-color: #fff;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+  flex-wrap: nowrap;
+}
+
+header { border: 1px solid#ffc72d;;
+  background:#ffc72d;
+  width: 300px; height: 60px; line-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+header i { 
+  font-size: 30px;
+  padding: 0 50px;
+}
+.search  { 
+  width: 210px;
+  position: relative;
+  margin: 10px auto;
+  top:-30px; left:-35px;
+  color: #ccc;
+}
+input {
+  width: 100%;
+  border:none;
+  padding:10px 35px;
+  font-size: 14px;
+  border-radius: 50px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,.5);
+}
+.search i {
+  position: absolute;
+  top: 10px;
+  right: -50px; 
+}
+h2 {
+  width: 260px;  height: 32px;
+  margin: 0 20px;  padding-left: 10px;
+  position: relative;  top:-30px; 
+}
+main {
+  width: 260px; height: 155px;
+  margin: 0 20px;
+  position: relative;  top:-30px; 
+}
+main img {
+  width: 100px; margin: 10px;
+  border-radius: 10px;
+  display: inline;
+  float: left;
+}
+main h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  float: left;
+  display: block;
+}
+main h4 {
+  float: left;
+  display: block;
+  color: #ccc;
+}
+main > div > div.star {
+  margin-top: 5px;
+}
+.star i {
+  color:#FFC72D;
+  font-size:12px;  margin-bottom:8px;
+}
+.star i:last-child {
+  color:#eaeaea;
+}
+.button {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom:8px;
+}
+.button span {
+  background: #eaeaea;
+  font-size: 10px;
+  padding: 8px;
+  display: block;
+  border-radius: 5px;
+}
+.bookmark {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.bookmark span i{
+  background-color: #FFC72D ;
+  width:30px;  height:30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bookmark p {
+  background:black;
+  color:white;
+  font-size: 11px;
+  padding: 8px 20px;
+  display: block;
+  border-radius: 5px;
+}
+h2 {
+  width: 260px;  height: 32px;
+  margin: 0 20px;  padding-left: 10px;
+  position: relative;  top:-30px; 
+}
+section { 
+  width: 260px; height: 120px;
+  margin: 0 20px;
+  position: relative;  top:-30px; 
+  display: flex;
+  overflow-x:scroll;
+  padding-bottom: 15px;
+}
+.top_book {
+  width:70px; height:100px;
+  margin: auto;
+  padding: 0 8px;
+}
+.top_book img {
+  width:65px;
+  border-radius: 5px;
+  display:block;
+}
+div.stars {
+  width:70px;
+  display: flex;
+  margin-top: 5px;
+  justify-content: space-evenly;
+}
+.stars i {
+  color:#FFC72D;
+  font-size:8px;  margin-top:5px;
+  display: block;  text-align: center;
+}
+
+article {
+  width: 260px; height: 125px;
+  margin: 0 25px;
+  position: relative;  top:-30px; 
+  display: flex;
+}
+article img{ 
+  border-radius: 10px;
+  margin-right: 10px;
+}
+article h4 {
+  display: block;
+}
+article h5 {
+  color:#ccc;
+}

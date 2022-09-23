@@ -1,0 +1,26 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--horizontal-space);
+  margin-bottom: 15px;
+}
+.screen-header__title {
+  font-size: 32px;
+  font-weight: 600;
+}
+.screen-header__icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.screen-header__icons span {
+  margin-left: 15px;
+}
+
+#gear {
+  color: #666;
+}
+#gear:hover {
+  color: #ccc;
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="sowhy">
+  <meta name="description" content="explanation">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" as="style" crossorigin
+    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.4/dist/web/static/pretendard-dynamic-subset.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://kit.fontawesome.com/5ee8d2169b.js" crossorigin="anonymous"></script>
+  
+  <link rel="stylesheet" href="src/220715.css">
+  <title>kokoa clone_220715_Challenge</title>
+</head>
+<body>
+  <div id="wrap">
+    <div id="phone"> 
+      <header>
+        <i class="fa-solid fa-arrow-left"></i>
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </header>
+            
+      <div class="artist"> <!-- 커버 아티스트 -->
+        <img src="https://ssl.pstatic.net/sstatic/people/portraitGroup/202109/20210901131804634.jpg" />
+        <h2>Nell</h2>
+        <h5>Modern Rock</h5>
+      </div>
+            
+      <div class="btn"> <!-- 버튼 -->
+        <span>Shuffle</span>
+        <span><i class="fa-solid fa-heart"></i>66,277</span>
+      </div>
+            
+      <div class="list"> <!-- 리스트 -->
+        <li class="list_list"> <!-- FIXME:01 -->
+          <div class="list_data">
+            <img src="https://cdnimg.melon.co.kr/cm/album/images/003/74/383/374383_500.jpg/melon/resize/400/quality/80/optimize" />
+            <div>
+              <span class="list_artist">Nell</span>
+              <span class="list_title">기억을 걷는 시간</span>
+            </div>
+          </div>
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </li>
+        <div class="list_list"> <!-- FIXME:02 -->
+          <div class="list_data">
+            <img src="https://cdnimg.melon.co.kr/cm/album/images/000/31/739/31739_500.jpg/melon/resize/400/quality/80/optimize" />
+            <div>
+              <span class="list_artist">Nell</span>
+              <span class="list_title">Stay</span>
+            </div>
+          </div>
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+        <div class="list_list"> <!-- FIXME:03 -->
+          <div class="list_data">
+            <img src="https://cdnimg.melon.co.kr/cm/album/images/003/27/589/327589_500.jpg/melon/resize/400/quality/80/optimize" />
+            <div>
+              <span class="list_artist">Nell</span>
+              <span class="list_title">Good Night</span>
+            </div>
+          </div>
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+        <div class="list_list"> <!-- FIXME:04 -->
+          <div class="list_data">
+            <img src="https://cdnimg.melon.co.kr/cm/album/images/000/43/569/43569_500.jpg/melon/resize/400/quality/80/optimize" />
+            <div>
+              <span class="list_artist">Nell</span>
+              <span class="list_title">Thank you</span>
+            </div>
+          </div>
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+      </div>
+
+      <figure>
+        <div class="play"> <!-- 플레이 -->
+          <div>
+            <span class="play_artist"">Nell</span>
+            <span class="play_title"">Ocean Of Light</span>
+          </div>
+          <div class="play_btn">
+            <i class="fa-solid fa-backward-step"></i>
+            <i class="fa-solid fa-play"></i>
+            <i class="fa-solid fa-forward-step"></i>
+          </div>
+        </div>
+      </figure>
+    </div>
+
+    <div id="phone"> <!-- TODO: -->
+      <header>
+        <i class="fa-solid fa-arrow-left"></i>
+        <i class="fa-solid fa-ellipsis-vertical"></i>
+      </header>
+
+      <div class="play_list"> <!-- 제목 -->
+        <h3>Nell</h3>
+        <h2>Ocean Of Light</h2>
+      </div>
+
+      <div class="cover"> <!-- 커버 -->
+        <img src="https://cdnimg.melon.co.kr/cm/album/images/021/88/236/2188236_500.jpg/melon/resize/400/quality/80/optimize" />
+      </div>
+
+      <div class="lyrics"> <!-- 가사 -->
+        <p>I’m in the ocean of light</p>
+        <p>내 꿈이 춤을 춘다</p>
+        <p>거대한 빛의 파도 그속에서</p>
+      </div>
+      
+
+
+      <div class="play_">
+        <div class="play_time"> <!-- 시간 -->
+          <span>01:15</span>
+          <span>04:57</span>
+        </div>
+        <div class="play_bar"> <!-- 플레이 바 -->
+          <div class="play_play"></div>
+          <div class="play_mark"></div>
+          <div class="play_tot"></div>
+        </div>
+      </div>
+      <div class="player"> <!-- 플레이어 -->
+        <i class="fa-solid fa-arrows-rotate"></i>
+        <i class="fa-solid fa-backward-step"></i>
+        <span> <i class="fa-solid fa-play" id="play"></i> </span>
+        <i class="fas fa-step-forward fa-lg"></i>
+        <i class="fa-solid fa-shuffle"></i>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
